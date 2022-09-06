@@ -22,8 +22,9 @@ public:
             if (a[i] == b[i])
             {
                 ans += a[i];
+            }else{
+                break;
             }
-            
         }
         
         return ans;
